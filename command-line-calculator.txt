@@ -1,0 +1,9 @@
+http://askubuntu.com/questions/378661/any-command-line-calculator-for-ubuntu
+
+-----
+# bash function (add to .bashrc)
+
+=() {
+    echo "$(($@))"
+}
+-----
