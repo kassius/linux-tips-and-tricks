@@ -1,0 +1,15 @@
+vim
+
+-----
+vim + bash
+
+:sh then ctrl+d to get back in (bash)
+
+Update:
+
+You could map ctrl+d in vim to run :sh, which allows you to toggle between bash and vim quickly.
+
+noremap <C-d> :sh<cr>
+
+http://stackoverflow.com/questions/1236563/how-to-run-a-terminal-inside-of-vim
+-----
